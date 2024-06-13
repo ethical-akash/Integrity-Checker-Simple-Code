@@ -28,12 +28,12 @@ The program displays a menu with three options:
     2. Check Integrity
     3. Compare Reports
    
-**Option 1: **Generate Report:
+**Option 1:** Generate Report:
 
 If you choose option 1, the program will generate a report of the current state (hashes) of all files in the specified directory and save it to integrity_report_old.json.
 The report generation status will be displayed.
 
-**Option 2: **Check Integrity:
+**Option 2:** Check Integrity:
 
 If you choose option 2, the program first generates a new report (integrity_report_new.json) of the current state of the files.
 It then compares this new report with the old report (integrity_report_old.json) to check if any files have been modified or are missing.
